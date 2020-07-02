@@ -1,0 +1,40 @@
+.page-content {
+    background-image: url(../../resources/images/sky.jpg);
+    background-color: black;
+    height: 695px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-content {
+    /* font-family: "Lucida Console", Courier, monospace; */
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0066ff;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.btn {
+    background-color: #fafafa;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1.4;
+    border: 2px solid black;
+}
+
+.searchForm {
+    height: 100%;
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    padding: 12px 20px 12px 5px;
+}
